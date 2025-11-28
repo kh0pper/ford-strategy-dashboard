@@ -1,0 +1,274 @@
+{
+  "financial": [
+    {
+      "metric": "Total Revenue ($B)",
+      "ford_overall": "185.0",
+      "ford_blue": "72.8",
+      "model_e": "3.9",
+      "ford_pro": "66.9",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "+5.0% YoY"
+    },
+    {
+      "metric": "EBIT ($B)",
+      "ford_overall": "11.3",
+      "ford_blue": "9.3",
+      "model_e": "-5.1",
+      "ford_pro": "9.0",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "+33.0% YoY"
+    },
+    {
+      "metric": "EBIT Margin (%)",
+      "ford_overall": "6.1%",
+      "ford_blue": "12.8%",
+      "model_e": "-131.8%",
+      "ford_pro": "13.5%",
+      "benchmark": "7.5% (industry avg)",
+      "performance_vs_benchmark": "-1.4pp below avg (dragged by Model e)",
+      "trend": "+1.2pp improvement"
+    },
+    {
+      "metric": "Net Income ($B)",
+      "ford_overall": "6.6",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "+53.5% YoY"
+    },
+    {
+      "metric": "Wholesale Units (000s)",
+      "ford_overall": "4643",
+      "ford_blue": "2279",
+      "model_e": "N/A",
+      "ford_pro": "1503",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "+2.1% YoY"
+    }
+  ],
+  "marketing": [
+    {
+      "metric": "Brand Loyalty - Trucks (%)",
+      "ford_overall": "65.1%",
+      "ford_blue": "65.1%",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "55% (industry avg)",
+      "performance_vs_benchmark": "+10.1pp above avg",
+      "trend": "+1.5pp YoY"
+    },
+    {
+      "metric": "Brand Loyalty - Overall (%)",
+      "ford_overall": "52.8%",
+      "ford_blue": "52.8%",
+      "model_e": "41.5%",
+      "ford_pro": "N/A",
+      "benchmark": "50% (industry avg)",
+      "performance_vs_benchmark": "+2.8pp above avg",
+      "trend": "+1.2pp YoY"
+    },
+    {
+      "metric": "Customer Satisfaction (ACSI)",
+      "ford_overall": "79",
+      "ford_blue": "79",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "80 (industry avg)",
+      "performance_vs_benchmark": "-1 point below avg",
+      "trend": "+3 points YoY"
+    },
+    {
+      "metric": "Net Promoter Score (NPS)",
+      "ford_overall": "41",
+      "ford_blue": "41",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "35 (industry avg)",
+      "performance_vs_benchmark": "+6 points above avg",
+      "trend": "+10 points YoY"
+    },
+    {
+      "metric": "Marketing Spend % of Revenue",
+      "ford_overall": "1.51%",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "1.75% (industry avg)",
+      "performance_vs_benchmark": "-0.24pp more efficient",
+      "trend": "-0.14pp improvement"
+    },
+    {
+      "metric": "Digital Marketing Mix (%)",
+      "ford_overall": "65%",
+      "ford_blue": "60%",
+      "model_e": "85%",
+      "ford_pro": "55%",
+      "benchmark": "60% (industry avg)",
+      "performance_vs_benchmark": "+5pp above avg",
+      "trend": "+5pp YoY"
+    }
+  ],
+  "management": [
+    {
+      "metric": "Employee Count (000s)",
+      "ford_overall": "171",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "-6K YoY (-3.4%)"
+    },
+    {
+      "metric": "Leadership Effectiveness (SIR)",
+      "ford_overall": "4.0",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "3.0 (benchmark)",
+      "performance_vs_benchmark": "+1.0 above avg",
+      "trend": "Stable"
+    },
+    {
+      "metric": "Employee Engagement (SIR)",
+      "ford_overall": "2.0",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "3.5 (benchmark)",
+      "performance_vs_benchmark": "-1.5 below avg",
+      "trend": "-0.5 decline"
+    },
+    {
+      "metric": "Strategy Implementation (SIR Overall)",
+      "ford_overall": "3.3",
+      "ford_blue": "N/A",
+      "model_e": "N/A",
+      "ford_pro": "N/A",
+      "benchmark": "3.0 (benchmark)",
+      "performance_vs_benchmark": "+0.3 above avg",
+      "trend": "Stable"
+    },
+    {
+      "metric": "Management Model Evolution",
+      "ford_overall": "Hybrid (2024, recalibrating 2025)",
+      "ford_blue": "Traditional hierarchy",
+      "model_e": "Emergence emphasis",
+      "ford_pro": "Balanced",
+      "benchmark": "N/A - Qualitative",
+      "performance_vs_benchmark": "Context-dependent",
+      "trend": "Shifting toward strategic oversight"
+    }
+  ],
+  "operations": [
+    {
+      "metric": "Manufacturing Facilities (count)",
+      "ford_overall": "41",
+      "ford_blue": "~20 ICE-focused",
+      "model_e": "~5 EV-dedicated",
+      "ford_pro": "~16 commercial-focused",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "Stable, reallocating"
+    },
+    {
+      "metric": "Geographic Footprint (countries)",
+      "ford_overall": "24",
+      "ford_blue": "24",
+      "model_e": "15",
+      "ford_pro": "24",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "Stable"
+    },
+    {
+      "metric": "Capacity Utilization (%)",
+      "ford_overall": "~70%",
+      "ford_blue": "75%",
+      "model_e": "45%",
+      "ford_pro": "85%",
+      "benchmark": "80% (industry avg)",
+      "performance_vs_benchmark": "-10pp below avg",
+      "trend": "ICE declining, EV ramping"
+    },
+    {
+      "metric": "Vertical Integration - Batteries",
+      "ford_overall": "BlueOval SK JV ($11B+)",
+      "ford_blue": "N/A",
+      "model_e": "100% (via JV)",
+      "ford_pro": "Leverages Blue/Model e",
+      "benchmark": "20% (industry avg - outsourced)",
+      "performance_vs_benchmark": "+80pp more integrated",
+      "trend": "Ramping production"
+    },
+    {
+      "metric": "Supply Chain Resilience Score",
+      "ford_overall": "7.5",
+      "ford_blue": "8.0",
+      "model_e": "6.0",
+      "ford_pro": "8.5",
+      "benchmark": "7.0 (benchmark)",
+      "performance_vs_benchmark": "+0.5 above avg",
+      "trend": "+1.0 improvement YoY"
+    },
+    {
+      "metric": "Workforce Skills Transformation",
+      "ford_overall": "In Progress",
+      "ford_blue": "Mature ICE skills",
+      "model_e": "Building EV skills",
+      "ford_pro": "Commercial expertise",
+      "benchmark": "N/A - Qualitative",
+      "performance_vs_benchmark": "Mixed - Blue mature, Model e transforming",
+      "trend": "Model e hiring, Blue retraining"
+    }
+  ],
+  "quality": [
+    {
+      "metric": "Defects per Vehicle (estimated)",
+      "ford_overall": "N/A",
+      "ford_blue": "3.2",
+      "model_e": "4.5",
+      "ford_pro": "2.8",
+      "benchmark": "3.5 (industry avg)",
+      "performance_vs_benchmark": "Blue/Pro better, Model e worse",
+      "trend": "Model e improving"
+    },
+    {
+      "metric": "Warranty Costs (% of revenue)",
+      "ford_overall": "N/A",
+      "ford_blue": "2.1%",
+      "model_e": "3.8%",
+      "ford_pro": "1.9%",
+      "benchmark": "2.5% (industry avg)",
+      "performance_vs_benchmark": "Blue/Pro better, Model e higher",
+      "trend": "Model e quality challenges"
+    }
+  ],
+  "sustainability": [
+    {
+      "metric": "EV Production Capacity (units/yr)",
+      "ford_overall": "~600K",
+      "ford_blue": "N/A",
+      "model_e": "600K",
+      "ford_pro": "N/A",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "+150K YoY capacity addition"
+    },
+    {
+      "metric": "BlueOval SK Battery Capacity (GWh)",
+      "ford_overall": "~130 (when fully operational)",
+      "ford_blue": "N/A",
+      "model_e": "130",
+      "ford_pro": "N/A",
+      "benchmark": "N/A",
+      "performance_vs_benchmark": "N/A",
+      "trend": "Ramping 2024-2026"
+    }
+  ]
+}

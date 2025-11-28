@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Ford Brand Theme */
+@theme {
+  /* Ford Brand Colors */
+  --color-ford-blue: #003478;
+  --color-ford-light-blue: #0076CE;
+  --color-ford-pro: #00A550;
+  --color-model-e: #FF6B00;
+
+  /* Status Colors */
+  --color-positive: #10B981;
+  --color-negative: #EF4444;
+  --color-neutral: #6B7280;
+
+  /* Dark Mode */
+  --color-dark-bg: #0F172A;
+  --color-dark-card: #1E293B;
+  --color-accent: #60A5FA;
+}
+
+/* Base Styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Light mode default */
+.light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border-color: #e2e8f0;
+}
+
+/* Dark mode */
+.dark {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border-color: #334155;
+}
+
+/* Transitions */
+* {
+  transition: background-color 0.2s ease-out, color 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-ford-blue);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ford-light-blue);
+}

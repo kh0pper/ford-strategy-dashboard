@@ -1,0 +1,29 @@
+{
+  "blue": {
+    "name": "Ford Blue",
+    "financial": "2024 Revenue: $72.8B, EBIT: $9.3B (12.8% margin), Wholesale Units: 2,279K, Strong profitability, Cash generator",
+    "marketing": "Brand loyalty: 65.1% (trucks), Traditional dealer network, Heritage-based positioning, Customer satisfaction: 79 ACSI",
+    "management": "Cost leadership focus, Traditional hierarchical management, Experienced leadership, Conservative culture",
+    "operations": "Efficient ICE manufacturing, 14 US plants, Legacy platform expertise, Excess capacity challenge, Mature supply chain",
+    "strategic_position": "Cost leadership in ICE segment, Declining market share in evolving market, Strong short-term position",
+    "framework_fit_score": "9/10 - Strong alignment between strategy and execution"
+  },
+  "model_e": {
+    "name": "Ford Model e",
+    "financial": "2024 Revenue: $3.9B, EBIT: -$5.1B (-131.8% margin), Wholesale Units: estimated, Significant losses, Strategic investment",
+    "marketing": "Innovation-focused messaging, Direct-to-consumer exploration, Lower brand loyalty 41.5%, Younger demographic targeting",
+    "management": "Startup-like culture, Emergence emphasis, Autonomous decision-making, Mission-driven employees",
+    "operations": "New EV-dedicated facilities, BlueOval SK vertical integration, Battery supply chain focus, Capacity ramping",
+    "strategic_position": "Market penetration in EVs, Competitive pricing pressure, Strategic positioning for future, Execution challenges",
+    "framework_fit_score": "4/10 - Strategy-execution misalignment; demand slower than projected"
+  },
+  "pro": {
+    "name": "Ford Pro",
+    "financial": "2024 Revenue: $66.9B, EBIT: $9.0B (13.5% margin), Wholesale Units: 1,503K, Strongest performer, Premium margins",
+    "marketing": "B2B relationship marketing, Fleet customer focus, Software/services differentiation, Professional customer targeting",
+    "management": "Differentiation strategy, Integrated coordination, Commercial discipline, Customer-centric organization",
+    "operations": "Specialized commercial facilities, Telematics integration, Fleet management software, Service capability",
+    "strategic_position": "Premium services positioning, Strongest competitive advantage, Software-as-a-service growth, Sustainable differentiation",
+    "framework_fit_score": "10/10 - Exemplar of integrated strategy; all dimensions aligned"
+  }
+}

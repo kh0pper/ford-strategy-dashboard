@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2020",
+    "financial": "Revenue: $127.1B, Net Income: -$1.3B, EBIT: -$2.9B",
+    "marketing": "Traditional product-first marketing approach",
+    "management": "Jim Farley becomes CEO (Oct 2020); Traditional hierarchical structure",
+    "operations": "186K employees, Single automotive segment structure",
+    "framework": "Porter's Five Forces (high competitive intensity)"
+  },
+  {
+    "year": "2021",
+    "financial": "Revenue: $136.3B, Net Income: -$0.5B, EBIT: $2.1B",
+    "marketing": "Marketing spend maintained at 1.65% during COVID recovery",
+    "management": "Ford+ Plan announced (May 2021); Shift toward hybrid management model",
+    "operations": "183K employees, Announcement of $11B BlueOval SK battery investment",
+    "framework": "Oblique objectives introduced (Kay, 1998); Strategic intent defined"
+  },
+  {
+    "year": "2022",
+    "financial": "Revenue: $158.1B, Net Income: $2.0B, EBIT: $6.2B",
+    "marketing": "Begin development of lifestyle-based marketing segmentation",
+    "management": "Business unit restructure (Mar 2022): Blue/Model e/Pro; Emergence emphasis",
+    "operations": "173K employees, EV capacity ramp-up begins, Facility specialization",
+    "framework": "MIT Decision Category Framework; Focused Factory (Skinner); Birkinshaw & Goddard Management Model"
+  },
+  {
+    "year": "2023",
+    "financial": "Revenue: $176.2B, Net Income: $4.3B, EBIT: $8.5B; Blue: $7.7B EBIT, Pro: $7.2B EBIT, Model e: -$4.7B EBIT",
+    "marketing": "Marketing ROI improved from 0.32 to 2.11; Digital marketing 65%",
+    "management": "Business units mature; UAW strike (46 days); Labor agreement increases costs",
+    "operations": "177K employees, UAW wage agreement (+25% over 2023-2028), Supply chain resilience programs",
+    "framework": "STP Framework applied; Consumer behavior analysis; Strategy Implementation Roadmap (SIR)"
+  },
+  {
+    "year": "2024",
+    "financial": "Revenue: $185.0B, Net Income: $6.6B, EBIT: $11.3B; Blue: $9.3B EBIT (12.8%), Pro: $9.0B EBIT (13.5%), Model e: -$5.1B EBIT (-131.8%)",
+    "marketing": "'Ready, Set, Ford' campaign launched (Sept 2025); Truck loyalty 65.1%; Brand awareness +6%",
+    "management": "Leadership changes (Feb 2025): Sherry House CFO, John Lawler Vice Chair-Strategy, Marin Gjaja CSO; Recentralization of strategy",
+    "operations": "171K employees, ICE capacity underutilization challenges, EV capacity coming online",
+    "framework": "Marketing Intelligence (Dolan & John); Management Model recalibration; Operations efficiency focus"
+  },
+  {
+    "year": "2025 (Early)",
+    "financial": "Cost discipline focus: $1B cost savings target, Bonus cuts for underperformers",
+    "marketing": "Continued digital transformation and personalization initiatives",
+    "management": "Strategic oversight emphasis; Balance autonomy with coordination",
+    "operations": "Workforce skills transformation (ICE to EV); BlueOval SK plants operational",
+    "framework": "Hybrid management approach; Resource-Based View; Competitive positioning reassessment"
+  }
+]

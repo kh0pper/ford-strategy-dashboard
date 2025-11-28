@@ -1,0 +1,146 @@
+[
+  {
+    "id": "birkinshaw-and-goddard-management-model",
+    "name": "Birkinshaw & Goddard Management Model",
+    "source": "MIT Sloan 2009",
+    "area": "Management & Leadership",
+    "applications": {
+      "blue": "Goal setting emphasis, Extrinsic motivation, Bureaucratic coordination, Hierarchical decisions",
+      "modelE": "Oblique objectives, Intrinsic motivation (mission-driven), Emergent coordination, Collective wisdom",
+      "pro": "Balanced approach, Both extrinsic and intrinsic, Coordinated emergence, Professional decision-making"
+    },
+    "assessment": "Successfully applied with business unit differentiation, 2025 recalibration toward balance"
+  },
+  {
+    "id": "mit-decision-category-framework-structural",
+    "name": "MIT Decision Category Framework (Structural)",
+    "source": "Iansiti & Serels 2024",
+    "area": "Operations Strategy",
+    "applications": {
+      "blue": "Dedicated ICE facilities, Legacy capacity management, Mature vertical integration, Traditional process tech",
+      "modelE": "New EV-dedicated plants, BlueOval SK battery JV, EV capacity ramp-up, Modern manufacturing tech",
+      "pro": "Specialized commercial facilities, Integrated software platforms, Global Transit production, Service infrastructure"
+    },
+    "assessment": "Strong structural alignment, Focused factory concept realized through business units"
+  },
+  {
+    "id": "mit-decision-category-framework-infrastructure",
+    "name": "MIT Decision Category Framework (Infrastructure)",
+    "source": "Iansiti & Serels 2024",
+    "area": "Operations Strategy",
+    "applications": {
+      "blue": "Experienced ICE workforce, Established supplier network, Traditional dealer relationships, Mature systems",
+      "modelE": "Technology talent recruitment, New EV supply chain, Skills transformation challenge, Modern IT infrastructure",
+      "pro": "Professional customer support, Fleet management software, Telematics expertise, Service-oriented workforce"
+    },
+    "assessment": "Mixed - Blue mature, Model e transforming, Pro building competitive advantage"
+  },
+  {
+    "id": "stp-framework-segmentation-targeting-positioning",
+    "name": "STP Framework (Segmentation-Targeting-Positioning)",
+    "source": "Dolan & John",
+    "area": "Marketing Strategy",
+    "applications": {
+      "blue": "Traditional truck buyers, Value-conscious consumers, Heritage and capability positioning",
+      "modelE": "Innovation adopters, Environmentally conscious, Technology-forward positioning, Premium EV segment",
+      "pro": "Commercial fleet operators, Professional customers, Premium services positioning, B2B relationships"
+    },
+    "assessment": "Excellent segmentation clarity, Each unit serves distinct customer base with tailored positioning"
+  },
+  {
+    "id": "consumer-behavior-and-decision-making",
+    "name": "Consumer Behavior & Decision-Making",
+    "source": "Dolan & John",
+    "area": "Marketing Intelligence",
+    "applications": {
+      "blue": "High-involvement purchase, Compensatory decision-making, Cognitive and emotional factors, Brand loyalty focus",
+      "modelE": "High-involvement, Optimizing decision-making, Cognitive emphasis on technology, Lower loyalty (building)",
+      "pro": "Professional buying process, Rational decision-making, Total cost of ownership, Relationship-driven"
+    },
+    "assessment": "Applied effectively - Understanding buying process drives marketing and product decisions"
+  },
+  {
+    "id": "porter's-five-forces",
+    "name": "Porter's Five Forces",
+    "source": "Porter 1996",
+    "area": "Competitive Strategy",
+    "applications": {
+      "blue": "High rivalry (GM, Stellantis, Toyota), Medium supplier power, Medium buyer power, Low substitute threat",
+      "modelE": "High rivalry (Tesla, Chinese OEMs, traditional), High supplier power (batteries), Medium buyer power, Medium substitute threat",
+      "pro": "Medium rivalry (GM, Stellantis entering), High supplier power (tech), High buyer power (fleet), Low substitute threat"
+    },
+    "assessment": "Critical for understanding competitive position, Informs strategic choices across units"
+  },
+  {
+    "id": "focused-factory-concept",
+    "name": "Focused Factory Concept",
+    "source": "Skinner 1974",
+    "area": "Operations Management",
+    "applications": {
+      "blue": "Focused on ICE efficiency, Optimized for high-volume trucks, Mature manufacturing processes",
+      "modelE": "Focused on EV technology, Platform specialization, Battery integration expertise",
+      "pro": "Focused on commercial needs, Service integration, Fleet optimization"
+    },
+    "assessment": "Successfully implemented - Business unit specialization enables operational focus"
+  },
+  {
+    "id": "resource-based-view",
+    "name": "Resource-Based View",
+    "source": "Penrose/Wernerfelt",
+    "area": "Strategic Resources",
+    "applications": {
+      "blue": "F-150 brand equity, Dealer network, Manufacturing scale, Legacy expertise",
+      "modelE": "Battery technology, Software capabilities, EV platforms, Vertical integration (BlueOval SK)",
+      "pro": "Fleet management software, Customer relationships, Service capabilities, Telematics IP"
+    },
+    "assessment": "Mixed - Blue leverages mature resources, Model e building new, Pro creating unique capabilities"
+  },
+  {
+    "id": "strategy-implementation-roadmap-sir",
+    "name": "Strategy Implementation Roadmap (SIR)",
+    "source": "Nieto-Rodriguez",
+    "area": "Implementation Effectiveness",
+    "applications": {
+      "blue": "Strong execution, High value creation, Mature processes, Cultural fit",
+      "modelE": "Implementation challenges, Value destruction (-$5.1B EBIT), Cultural transformation ongoing",
+      "pro": "Excellent execution, Strong value creation, Business model innovation, Cultural alignment"
+    },
+    "assessment": "Overall 3.3/5.0 - Strong leadership (4/5), weak employee engagement (2/5)"
+  },
+  {
+    "id": "oblique-objectives-vs.-goal-setting",
+    "name": "Oblique Objectives vs. Goal Setting",
+    "source": "Kay 1998",
+    "area": "Strategic Intent",
+    "applications": {
+      "blue": "Goal setting: Financial targets, EBIT margins, Cash generation",
+      "modelE": "Obliquity: 'Better world', EV mission, Long-term purpose (though with financial pressure)",
+      "pro": "Balanced: Customer transformation mission with clear profitability targets"
+    },
+    "assessment": "Ford+ demonstrates oblique objectives, but 2025 shifts toward goal setting for discipline"
+  },
+  {
+    "id": "time-value-of-money-and-npv",
+    "name": "Time Value of Money & NPV",
+    "source": "Luehrman",
+    "area": "Financial Analysis",
+    "applications": {
+      "blue": "Short-term positive cash flows, Legacy asset depreciation, Minimal new capex required",
+      "modelE": "Long-term investment, Negative current NPV, $11B+ BlueOval SK investment, Future optionality",
+      "pro": "Strong current and future cash flows, Service revenue growth, Positive NPV on software investments"
+    },
+    "assessment": "Capital allocation balances Blue/Pro cash generation funding Model e strategic investment"
+  },
+  {
+    "id": "data-visualization-and-business-intelligence",
+    "name": "Data Visualization & Business Intelligence",
+    "source": "Stikeleather",
+    "area": "Analytics & Reporting",
+    "applications": {
+      "blue": "Performance dashboards (units, EBIT, quality), Traditional KPIs, Manufacturing metrics",
+      "modelE": "EV adoption tracking, Competitive analysis, Cost curve monitoring, Technology metrics",
+      "pro": "Customer usage data, Fleet telematics, Service metrics, Subscription analytics"
+    },
+    "assessment": "Data-driven decision-making across all units, CDP implementation improving insights by 22%"
+  }
+]
