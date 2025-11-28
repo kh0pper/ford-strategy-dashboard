@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
-import { Sun, Moon, LayoutDashboard, Building2, Cpu, Truck, BookOpen, Film, Menu, X } from 'lucide-react'
+import { Sun, Moon, LayoutDashboard, Building2, Cpu, Truck, BookOpen, Film, Menu, X, ChevronDown, BarChart2 } from 'lucide-react'
 
 // Import pages
 import ExecutiveSummary from './components/dashboard/ExecutiveSummary'
@@ -11,6 +11,7 @@ import StoryTimeline from './components/narrative/StoryTimeline'
 function Navigation({ darkMode, setDarkMode }) {
   const location = useLocation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [biDropdownOpen, setBiDropdownOpen] = useState(false)
 
   const navItems = [
     { path: '/', label: 'Dashboard', icon: LayoutDashboard },
@@ -19,6 +20,13 @@ function Navigation({ darkMode, setDarkMode }) {
     { path: '/pro', label: 'Ford Pro', icon: Truck, color: 'text-[#00A550]' },
     { path: '/frameworks', label: 'Frameworks', icon: BookOpen },
     { path: '/story', label: 'Story', icon: Film },
+  ]
+
+  const biLinks = [
+    { url: 'https://kh0pper.github.io/DSCI-5330-Assignment-02/', label: 'Finance & Accounting', assignment: '02' },
+    { url: 'https://kh0pper.github.io/dsci-5330-assignment-3/', label: 'Marketing Intelligence', assignment: '03' },
+    { url: 'https://kh0pper.github.io/dsci-5330-assignment-4/', label: 'Management Strategy', assignment: '04' },
+    { url: 'https://kh0pper.github.io/dsci-5330-assignment-05/', label: 'Operations Strategy', assignment: '05' },
   ]
 
   const isActive = (path) => location.pathname === path
@@ -58,6 +66,45 @@ function Navigation({ darkMode, setDarkMode }) {
                 <span>{label}</span>
               </Link>
             ))}
+
+            {/* B.I. Dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setBiDropdownOpen(!biDropdownOpen)}
+                onBlur={() => setTimeout(() => setBiDropdownOpen(false), 150)}
+                className={`px-3 py-2 rounded-lg text-sm font-medium flex items-center space-x-2 transition-colors
+                  ${darkMode
+                    ? 'text-slate-300 hover:text-white hover:bg-slate-700'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  }`}
+              >
+                <BarChart2 className="w-4 h-4" />
+                <span>B.I.</span>
+                <ChevronDown className={`w-3 h-3 transition-transform ${biDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {biDropdownOpen && (
+                <div className={`absolute right-0 mt-2 w-56 rounded-lg shadow-lg border ${darkMode ? 'bg-[#1E293B] border-slate-700' : 'bg-white border-slate-200'}`}>
+                  <div className={`px-3 py-2 text-xs font-semibold ${darkMode ? 'text-slate-500' : 'text-slate-400'}`}>
+                    Previous Assignments
+                  </div>
+                  {biLinks.map(({ url, label, assignment }) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex items-center px-3 py-2 text-sm transition-colors ${darkMode ? 'text-slate-300 hover:bg-slate-700' : 'text-slate-700 hover:bg-slate-100'}`}
+                    >
+                      <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center mr-3 ${darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
+                        {assignment}
+                      </span>
+                      {label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Right side */}
@@ -101,6 +148,28 @@ function Navigation({ darkMode, setDarkMode }) {
                 <span>{label}</span>
               </Link>
             ))}
+
+            {/* B.I. Links in Mobile */}
+            <div className={`mt-4 pt-4 border-t ${darkMode ? 'border-slate-700' : 'border-slate-200'}`}>
+              <div className={`px-4 py-2 text-xs font-semibold ${darkMode ? 'text-slate-500' : 'text-slate-400'}`}>
+                Previous B.I. Assignments
+              </div>
+              {biLinks.map(({ url, label, assignment }) => (
+                <a
+                  key={url}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${darkMode ? 'text-slate-300 hover:bg-slate-700' : 'text-slate-600 hover:bg-slate-100'}`}
+                >
+                  <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center ${darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
+                    {assignment}
+                  </span>
+                  <span>{label}</span>
+                </a>
+              ))}
+            </div>
           </nav>
         )}
       </div>
