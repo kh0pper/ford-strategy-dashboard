@@ -212,7 +212,7 @@ export default function ExecutiveSummary({ darkMode }) {
           Executive Dashboard
         </h1>
         <p className={`mt-2 ${darkMode ? 'text-slate-400' : 'text-slate-600'}`}>
-          Ford Motor Company Strategy Analysis (2020-2025)
+          Ford Motor Company Business Intelligence (2020-2025)
         </p>
       </div>
 

@@ -34,7 +34,7 @@ function Navigation({ darkMode, setDarkMode }) {
             </div>
             <div>
               <span className={`font-semibold ${darkMode ? 'text-white' : 'text-slate-900'}`}>
-                Ford Strategy
+                Ford Business Intelligence
               </span>
               <span className="hidden sm:inline text-xs text-slate-500 ml-2">DSCI-5330</span>
             </div>
@@ -114,7 +114,7 @@ function Footer({ darkMode }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm">
-            <span className="font-semibold">Ford Motor Company Strategy Analysis</span>
+            <span className="font-semibold">Ford Motor Company Business Intelligence</span>
             <span className="mx-2">•</span>
             <span>DSCI-5330 Business Analytics & Intelligence</span>
           </div>
