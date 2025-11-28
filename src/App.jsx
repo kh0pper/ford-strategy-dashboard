@@ -119,7 +119,7 @@ function Footer({ darkMode }) {
             <span>DSCI-5330 Business Analytics & Intelligence</span>
           </div>
           <div className="text-sm">
-            <span>Kevin Hopper</span>
+            <span>Group 3</span>
             <span className="mx-2">•</span>
             <span>University of North Texas</span>
             <span className="mx-2">•</span>
