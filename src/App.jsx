@@ -8,6 +8,12 @@ import BusinessUnitView from './components/business-units/BusinessUnitView'
 import FrameworkExplorer from './components/frameworks/FrameworkExplorer'
 import StoryTimeline from './components/narrative/StoryTimeline'
 
+// Import assignment dashboards
+import FinanceDashboard from './components/assignments/FinanceDashboard'
+import MarketingDashboard from './components/assignments/MarketingDashboard'
+import ManagementDashboard from './components/assignments/ManagementDashboard'
+import OperationsDashboard from './components/assignments/OperationsDashboard'
+
 function Navigation({ darkMode, setDarkMode }) {
   const location = useLocation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -23,10 +29,10 @@ function Navigation({ darkMode, setDarkMode }) {
   ]
 
   const biLinks = [
-    { url: 'https://kh0pper.github.io/DSCI-5330-Assignment-02/', label: 'Finance & Accounting', assignment: '02' },
-    { url: 'https://kh0pper.github.io/dsci-5330-assignment-3/', label: 'Marketing Intelligence', assignment: '03' },
-    { url: 'https://kh0pper.github.io/dsci-5330-assignment-4/', label: 'Management Strategy', assignment: '04' },
-    { url: 'https://kh0pper.github.io/dsci-5330-assignment-05/', label: 'Operations Strategy', assignment: '05' },
+    { path: '/finance', label: 'Finance & Accounting', assignment: '02' },
+    { path: '/marketing', label: 'Marketing Intelligence', assignment: '03' },
+    { path: '/management', label: 'Management Strategy', assignment: '04' },
+    { path: '/operations', label: 'Operations Strategy', assignment: '05' },
   ]
 
   const isActive = (path) => location.pathname === path
@@ -86,21 +92,19 @@ function Navigation({ darkMode, setDarkMode }) {
               {biDropdownOpen && (
                 <div className={`absolute right-0 mt-2 w-56 rounded-lg shadow-lg border ${darkMode ? 'bg-[#1E293B] border-slate-700' : 'bg-white border-slate-200'}`}>
                   <div className={`px-3 py-2 text-xs font-semibold ${darkMode ? 'text-slate-500' : 'text-slate-400'}`}>
-                    Previous Assignments
+                    Assignment Dashboards
                   </div>
-                  {biLinks.map(({ url, label, assignment }) => (
-                    <a
-                      key={url}
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`flex items-center px-3 py-2 text-sm transition-colors ${darkMode ? 'text-slate-300 hover:bg-slate-700' : 'text-slate-700 hover:bg-slate-100'}`}
+                  {biLinks.map(({ path, label, assignment }) => (
+                    <Link
+                      key={path}
+                      to={path}
+                      className={`flex items-center px-3 py-2 text-sm transition-colors ${isActive(path) ? 'bg-[#003478] text-white' : darkMode ? 'text-slate-300 hover:bg-slate-700' : 'text-slate-700 hover:bg-slate-100'}`}
                     >
-                      <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center mr-3 ${darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
+                      <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center mr-3 ${isActive(path) ? 'bg-white/20 text-white' : darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
                         {assignment}
                       </span>
                       {label}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               )}
@@ -152,22 +156,26 @@ function Navigation({ darkMode, setDarkMode }) {
             {/* B.I. Links in Mobile */}
             <div className={`mt-4 pt-4 border-t ${darkMode ? 'border-slate-700' : 'border-slate-200'}`}>
               <div className={`px-4 py-2 text-xs font-semibold ${darkMode ? 'text-slate-500' : 'text-slate-400'}`}>
-                Previous B.I. Assignments
+                Assignment Dashboards
               </div>
-              {biLinks.map(({ url, label, assignment }) => (
-                <a
-                  key={url}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              {biLinks.map(({ path, label, assignment }) => (
+                <Link
+                  key={path}
+                  to={path}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${darkMode ? 'text-slate-300 hover:bg-slate-700' : 'text-slate-600 hover:bg-slate-100'}`}
+                  className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors
+                    ${isActive(path)
+                      ? 'bg-[#003478] text-white'
+                      : darkMode
+                        ? 'text-slate-300 hover:bg-slate-700'
+                        : 'text-slate-600 hover:bg-slate-100'
+                    }`}
                 >
-                  <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center ${darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
+                  <span className={`w-6 h-6 rounded text-xs font-bold flex items-center justify-center ${isActive(path) ? 'bg-white/20 text-white' : darkMode ? 'bg-slate-700 text-slate-300' : 'bg-slate-200 text-slate-600'}`}>
                     {assignment}
                   </span>
                   <span>{label}</span>
-                </a>
+                </Link>
               ))}
             </div>
           </nav>
@@ -225,6 +233,11 @@ function AppContent() {
           <Route path="/pro" element={<BusinessUnitView unit="pro" darkMode={darkMode} />} />
           <Route path="/frameworks" element={<FrameworkExplorer darkMode={darkMode} />} />
           <Route path="/story" element={<StoryTimeline darkMode={darkMode} />} />
+          {/* Assignment Dashboards */}
+          <Route path="/finance" element={<FinanceDashboard darkMode={darkMode} />} />
+          <Route path="/marketing" element={<MarketingDashboard darkMode={darkMode} />} />
+          <Route path="/management" element={<ManagementDashboard darkMode={darkMode} />} />
+          <Route path="/operations" element={<OperationsDashboard darkMode={darkMode} />} />
         </Routes>
       </main>
 
